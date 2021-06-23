@@ -1,0 +1,30 @@
+.nijiko {
+  color: purple;
+  background-color: red;
+}
+
+.upload-box {
+  background-color: white;
+  width: 326px;
+  outline: none;
+  margin-bottom: 24px;
+}
+
+.upload-box:hover {
+}
+
+::-webkit-file-upload-button {
+  color: white;
+  background-color: #333;
+  padding: 20px;
+  border: none;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+::-webkit-file-upload-button:hover {
+  color: #333;
+  background-color: #f2f2f2;
+  outline: 1.5px solid #333;
+  outline-offset: -1.5px;
+}
